@@ -1,0 +1,37 @@
+<web-app>
+    <!--mapeo del primer servlet: Hola mundo  -->
+    <servlet>
+        <servlet-name>CuadradoPerimetroServlet</servlet-name>
+        <servlet-class>servlets.CuadradoPerimetroServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CuadradoPerimetroServlet</servlet-name>
+        <url-pattern>/CuadradoPerimetroServlet</url-pattern>
+    </servlet-mapping>
+   <servlet>
+        <servlet-name>CuadradoAreaServlet</servlet-name>
+        <servlet-class>servlets.CuadradoAreaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CuadradoAreaServlet</servlet-name>
+        <url-pattern>/CuadradoAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TrianguloAreaServlet</servlet-name>
+        <servlet-class>servlets.TrianguloAreaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrianguloAreaServlet</servlet-name>
+        <url-pattern>/TrianguloAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TrianguloPerimetroServlet</servlet-name>
+        <servlet-class>servlets.TrianguloPerimetroServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrianguloPerimetroServlet</servlet-name>
+        <url-pattern>/TrianguloPerimetroServlet</url-pattern>
+    </servlet-mapping>
+     <!--mapeo del segundo servlet: formulario -->
+     
+</web-app>
